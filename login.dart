@@ -29,7 +29,7 @@ class LoginScreen extends StatelessWidget {
               color: const Color(0xFFEA6100),
               child: Center(
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),  // المسافة من اليمين واليسار
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -54,8 +54,6 @@ class LoginScreen extends StatelessWidget {
               ),
             ),
           ),
-
-          // الجزء السفلي
           Expanded(
             flex: 7,
             child: Container(
